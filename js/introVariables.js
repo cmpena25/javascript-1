@@ -12,8 +12,15 @@ console.log(character);
 var quotations = "'hi'";
 console.log(quotations);
 
-let character = 'Hello';
+character = 'Hello';
 console.log(character);
 character = "World";
 let secondCharacter;
 console.log(secondCharacter);
+secondCharacter= character;
+console.log(secondCharacter);
+
+let count = 8;
+console.log(count + 1);
+
+let rows = ["Naomi", "Quincy", "CamperChan"];
