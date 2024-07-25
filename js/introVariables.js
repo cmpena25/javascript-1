@@ -27,3 +27,11 @@ let rows = ["Naomi", "Quincy", "CamperChan"];
 console.log(rows[0]);
 rows[2] = 10;
 console.log(rows);
+rows[rows.length - 1] = 10;
+rows.push("freeCodeCamp");
+console.log(rows);
+
+let cities = ["London", "New York", "Mumbai"];
+console.log(cities);
+cities[2] = "Mexico City";
+console.log(cities);
