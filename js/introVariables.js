@@ -35,3 +35,8 @@ let cities = ["London", "New York", "Mumbai"];
 console.log(cities);
 cities[2] = "Mexico City";
 console.log(cities);
+
+let popped = rows.pop();
+console.log(popped);
+let pushed = rows.push();
+console.log(pushed);
